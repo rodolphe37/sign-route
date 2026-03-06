@@ -1,11 +1,9 @@
-## SignRoute - Guide des Panneaux Routiers
+## SignalRoute - Guide des Panneaux Routiers
 
-This app was created using https://getmocha.com.
-Need help or want to join the community? Join our [Discord](https://discord.gg/shDEGBSe2d).
 
 To run the devserver:
 ```
 npm install
 npm run dev
 ```
-# sign-route
+# signal-route
