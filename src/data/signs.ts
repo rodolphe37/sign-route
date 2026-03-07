@@ -34,6 +34,30 @@ import ab4 from "../assets/panneaux-intersection/panneau-stop-ab4.png";
 import ab6 from "../assets/panneaux-intersection/panneau-route-prioritaire-ab6.png";
 import ab7 from "../assets/panneaux-intersection/panneau-fin-de-route-prioritaire-ab7.png";
 import b0 from "../assets/panneaux-d-interdiction/panneau-circulation-interdite-b0.png";
+import b1 from "../assets/panneaux-d-interdiction/panneau-sens-interdit-b1.png";
+import b2a from "../assets/panneaux-d-interdiction/panneau-interdiction-de-tourner-a-gauche-b2a.png";
+import b2b from "../assets/panneaux-d-interdiction/panneau-interdiction-de-tourner-a-droite-b2b.png";
+import b2c from "../assets/panneaux-d-interdiction/panneau-interdiction-de-faire-demi-tour-b2c.png";
+import b3 from "../assets/panneaux-d-interdiction/panneau-interdiction-de-depasser-b3.png";
+import b3a from "../assets/panneaux-d-interdiction/panneau-interdiction-de-depasser-b3a.png";
+import b4 from "../assets/panneaux-d-interdiction/panneau-arret-douane-b4.png";
+import b5a from "../assets/panneaux-d-interdiction/panneau-arret-gendarmerie-b5a.png";
+import b5b from "../assets/panneaux-d-interdiction/panneau-arret-police-b5b.png";
+import b5c from "../assets/panneaux-d-interdiction/panneau-arret-peage-b5c.png";
+import b7a from "../assets/panneaux-d-interdiction/panneau-acces-interdit-aux-motos-et-voitures-b7a.png";
+import b7b from "../assets/panneaux-d-interdiction/panneau-acces-interdit-a-tous-les-vehicules-a-moteur-b7b.png";
+import b8 from "../assets/panneaux-d-interdiction/panneau-acces-interdit-aux-camions-b8.png";
+import b9a from "../assets/panneaux-d-interdiction/panneau-acces-interdit-aux-pietons-b9a.png";
+import b9b from "../assets/panneaux-d-interdiction/panneau-acces-interdit-aux-cycles-b9b.png";
+import b10a from "../assets/panneaux-d-interdiction/panneau-limitation-de-longueur-b10a.png";
+import b11 from "../assets/panneaux-d-interdiction/panneau-limitation-de-largeur-b11.png";
+import b12 from "../assets/panneaux-d-interdiction/panneau-limitation-de-hauteur-b12.png";
+import b13 from "../assets/panneaux-d-interdiction/panneau-limitation-de-tonnage-b13.png";
+import b13a from "../assets/panneaux-d-interdiction/panneau-limitation-de-poids-par-essieu-b13a.png";
+import b14 from "../assets/panneaux-d-interdiction/panneau-limitation-de-vitesse-50-km-h-b14.png";
+import b15 from "../assets/panneaux-d-interdiction/panneau-cedez-le-passage-a-la-circulation-b15.png";
+import b16 from "../assets/panneaux-d-interdiction/panneau-interdiction-de-klaxonner-b16.png";
+import b17 from "../assets/panneaux-d-interdiction/panneau-distance-a-respecter-b17.png";
 
 export interface RoadSign {
   code: string;
@@ -368,8 +392,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau B1, également appelé panneau sens interdit, est un panneau de signalisation réglementaire utilisé pour interdire l'accès à une voie dans un sens. Obligatoire sur la voie publique, il est indispensable dans les rues à sens unique, les zones réglementées, ou encore les parkings d'entreprise et sites privés. C'est certainement le plus connu. Il peut être complété d'un panonceau « sauf vélo » ou « sauf riverains ».",
     type: "interdiction",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/e/e5/France_road_sign_B1.svg",
+    imageUrl: b1,
   },
   {
     code: "B2a",
@@ -377,8 +400,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau B2a est un panneau de signalisation réglementaire utilisé pour interdire aux conducteurs d'effectuer un virage à gauche. Il est généralement implanté à l'approche d'intersections, de carrefours dangereux, ou sur des axes où le tournant à gauche pourrait compromettre la sécurité ou la fluidité du trafic.",
     type: "interdiction",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/8/8a/France_road_sign_B2a.svg",
+    imageUrl: b2a,
   },
   {
     code: "B2b",
@@ -386,8 +408,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau B2b est un panneau de signalisation réglementaire destiné à interdire aux conducteurs d'effectuer un virage à droite. Il est généralement implanté à proximité d'intersections, de carrefours dangereux ou sur des voies où le tournant à droite représenterait un risque pour la sécurité ou la fluidité du trafic.",
     type: "interdiction",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/e/e9/France_road_sign_B2b.svg",
+    imageUrl: b2b,
   },
   {
     code: "B2c",
@@ -395,8 +416,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau B2c est un panneau de signalisation réglementaire destiné à interdire aux conducteurs d'effectuer un demi-tour. Il est principalement implanté sur les routes où une telle manœuvre serait dangereuse, comme les carrefours complexes, les zones de forte circulation ou les routes étroites.",
     type: "interdiction",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/5/5e/France_road_sign_B2c.svg",
+    imageUrl: b2c,
   },
   {
     code: "B3",
@@ -404,8 +424,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau B3 est un panneau de signalisation réglementaire interdisant aux conducteurs de dépasser les véhicules à moteur autres que les deux-roues sans side-car. Il est couramment implanté sur les routes sinueuses, les zones à faible visibilité, ou les sections dangereuses où le dépassement représente un risque élevé d'accident. Cette interdiction prend fin dès que le conducteur passe un panneau de fin d'interdiction comme le B34 ou B31.",
     type: "interdiction",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/1/1b/France_road_sign_B3.svg",
+    imageUrl: b3,
   },
   {
     code: "B3a",
@@ -413,8 +432,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau B3a est un panneau de signalisation réglementaire qui interdit aux véhicules de transport de marchandises dont le poids total autorisé en charge (PTAC) dépasse 3,5 tonnes d'effectuer un dépassement. Il est couramment implanté sur les routes à fort trafic, dans les zones accidentogènes, ou sur les sections où la largeur et la visibilité ne permettent pas de manœuvres sécurisées.",
     type: "interdiction",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/8/8e/France_road_sign_B3a.svg",
+    imageUrl: b3a,
   },
   {
     code: "B4",
@@ -422,8 +440,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau B4 est un panneau de signalisation réglementaire imposant aux conducteurs de s'arrêter obligatoirement à un poste de contrôle douanier. Il est utilisé aux frontières, dans les zones portuaires, aéroports ou sur certains axes stratégiques où des contrôles peuvent être effectués.",
     type: "interdiction",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/9/94/France_road_sign_B4.svg",
+    imageUrl: b4,
   },
   {
     code: "B5a",
@@ -431,8 +448,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau B5a, également appelé panneau d'arrêt gendarmerie, est un panneau de signalisation réglementaire utilisé pour signaler la proximité d'un barrage mobile de gendarmerie où l'arrêt est obligatoire, assurant ainsi la sécurité et le respect des contrôles.",
     type: "interdiction",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/8/82/France_road_sign_B5a.svg",
+    imageUrl: b5a,
   },
   {
     code: "B5b",
@@ -440,8 +456,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau B5b, également appelé panneau d'arrêt police, est un panneau de signalisation réglementaire utilisé pour signaler la proximité d'un barrage mobile de police où l'arrêt est obligatoire. Imposé par les autorités, il indique aux usagers qu'ils doivent impérativement marquer un arrêt pour se soumettre aux contrôles.",
     type: "interdiction",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/f/fb/France_road_sign_B5b.svg",
+    imageUrl: b5b,
   },
   {
     code: "B5c",
@@ -449,8 +464,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau B5c, également appelé panneau d'arrêt péage, est un panneau de signalisation réglementaire utilisé pour indiquer l'obligation de s'arrêter à proximité d'un poste de péage. Obligatoire sur la voie publique, il est généralement implanté en amont des barrières pour permettre la prise d'un ticket ou le paiement du droit de passage.",
     type: "interdiction",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/4/47/France_road_sign_B5c.svg",
+    imageUrl: b5c,
   },
   {
     code: "B7a",
@@ -458,8 +472,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau B7a est un panneau de signalisation réglementaire utilisé pour interdire l'accès aux motos et voitures, tout en autorisant les cyclomoteurs. Obligatoire sur la voie publique, il est généralement implanté aux entrées de zones piétonnes, résidentielles ou protégées où la circulation motorisée doit être restreinte.",
     type: "interdiction",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/e/ed/France_road_sign_B7a.svg",
+    imageUrl: b7a,
   },
   {
     code: "B7b",
@@ -467,8 +480,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau B7b est un panneau de signalisation réglementaire destiné à interdire la circulation de tout véhicule motorisé dans les zones protégées. Indispensable pour sécuriser les espaces piétonniers, les parcs et les zones sensibles, il garantit le respect des règles de circulation et prévient les nuisances liées aux véhicules.",
     type: "interdiction",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/3/3c/France_road_sign_B7b.svg",
+    imageUrl: b7b,
   },
   {
     code: "B8",
@@ -476,8 +488,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau B8, également appelé panneau d'interdiction aux camions, est un panneau de signalisation réglementaire employé pour interdire l'accès aux véhicules affectés au transport de marchandises. Utilisé sur la voirie publique, il est généralement implanté à l'entrée de zones sensibles, de centres-villes ou de voies non adaptées au passage des poids lourds.",
     type: "interdiction",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/2/22/France_road_sign_B8.svg",
+    imageUrl: b8,
   },
   {
     code: "B9a",
@@ -485,8 +496,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau B9a est un panneau de signalisation réglementaire destiné à interdire la circulation des piétons dans les zones à risque. Obligatoire sur les voiries concernées, il trouve sa place en bordure d'autoroutes, le long des voies ferrées ou à l'entrée de sites sensibles comme les chantiers et certains espaces verts.",
     type: "interdiction",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/c/c9/France_road_sign_B9a.svg",
+    imageUrl: b9a,
   },
   {
     code: "B9b",
@@ -494,8 +504,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau B9b est un panneau de signalisation réglementaire destiné à informer les cyclistes qu'ils n'ont pas l'autorisation de pénétrer dans une voie, une rue ou un espace ouvert à la circulation. Indispensable pour organiser la cohabitation entre différents usagers, il contribue à la sécurité routière en délimitant clairement les parcours cyclables.",
     type: "interdiction",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/a/ac/France_road_sign_B9b.svg",
+    imageUrl: b9b,
   },
   {
     code: "B10a",
@@ -503,8 +512,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Panneau routier pour interdire un accès aux véhicules ou ensemble de véhicules ayant une longueur, chargement compris, supérieure à la longueur indiquée sur le panneau. Certains usagers peuvent être soumis à des restrictions d'accès spécifiques dus à leur gabarit de véhicule.",
     type: "interdiction",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/a/af/France_road_sign_B10a.svg",
+    imageUrl: b10a,
   },
   {
     code: "B11",
@@ -512,8 +520,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Panneau routier pour interdire un accès aux véhicules ayant une largeur, chargement compris, supérieure à la largeur indiquée sur le panneau. Il doit être implanté à proximité immédiate de la zone ouverte à la circulation où la prescription s'applique. Cette signalisation permet de réguler le trafic et éviter les dangers.",
     type: "interdiction",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/6/68/France_road_sign_B11.svg",
+    imageUrl: b11,
   },
   {
     code: "B12",
@@ -521,8 +528,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau B12 est un panneau de signalisation réglementaire utilisé pour interdire l'accès aux véhicules dont la hauteur dépasse une certaine valeur. Il est principalement installé à l'approche de tunnels, ponts, passages couverts, parkings ou portiques d'entrée, afin d'éviter tout risque de collision ou d'endommagement des infrastructures.",
     type: "interdiction",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/1/1d/France_road_sign_B12.svg",
+    imageUrl: b12,
   },
   {
     code: "B13",
@@ -530,8 +536,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau B13 est un panneau de signalisation réglementaire utilisé pour interdire l'accès aux véhicules dont le poids total autorisé en charge (PTAC) dépasse une certaine limite. Il est couramment implanté à l'entrée des ponts, routes fragiles, zones urbaines, ou voies d'accès à gabarit limité, afin de protéger les infrastructures et garantir la sécurité de la circulation.",
     type: "interdiction",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/e/e9/France_road_sign_B13.svg",
+    imageUrl: b13,
   },
   {
     code: "B13a",
@@ -539,8 +544,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau B13a est un panneau de signalisation réglementaire utilisé pour interdire l'accès aux véhicules dont la charge par essieu dépasse une certaine limite. Il est généralement implanté sur les ponts, routes fragiles, voies d'accès rurales ou zones à chaussée sensible, afin de préserver les infrastructures.",
     type: "interdiction",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/6/6e/France_road_sign_B13a.svg",
+    imageUrl: b13a,
   },
   {
     code: "B14",
@@ -548,8 +552,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau B14 est un panneau de signalisation réglementaire utilisé pour indiquer la vitesse maximale autorisée sur une portion de voie. Obligatoire sur la voie publique, il est couramment installé en entrée d'agglomération, sur les routes communales ou départementales, ainsi que dans certaines zones industrielles ou résidentielles.",
     type: "interdiction",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/0/07/France_road_sign_B14_%2850%29.svg",
+    imageUrl: b14,
   },
   {
     code: "B15",
@@ -557,8 +560,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Alertez les usagers qu'ils sont obligés de céder le passage aux véhicules venant en sens inverse à l'aide de ce panneau B15. Il doit être placé à proximité de la zone ou la prescription s'applique, souvent ce panneau de signalisation est placé près d'un rétrécissement de la chaussée.",
     type: "interdiction",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/5/5c/France_road_sign_B15.svg",
+    imageUrl: b15,
   },
   {
     code: "B16",
@@ -566,8 +568,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "L'avertisseur sonore est interdit en ville sauf cas de danger immédiat (pour exemple : si un autre automobiliste ne vous a pas vu ou alors dans un virage sans visibilité pour signaler votre présence...).",
     type: "interdiction",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/a/a0/France_road_sign_B16.svg",
+    imageUrl: b16,
   },
   {
     code: "B17",
@@ -575,8 +576,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Panneau routier rond à fond blanc, bordé de rouge avec à son centre deux pictogrammes indiquant l'avant et l'arrière d'une voiture avec, entre les deux, une indication de longueur. Il signale à l'usager qu'il doit maintenir un intervalle (au minimum égal à la valeur indiquée) avec le véhicule qui le précède.",
     type: "interdiction",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/6/68/France_road_sign_B17.svg",
+    imageUrl: b17,
   },
   {
     code: "B31",
