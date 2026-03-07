@@ -4,6 +4,36 @@ import a1c from "../assets/panneaux-de-danger/a1c-panneau-succession-de-virages-
 import a2a from "../assets/panneaux-de-danger/a2a-panneau-de-danger-dos-d-ane.png";
 import a2b from "../assets/panneaux-de-danger/a2b-panneau-de-danger-ralentisseur-dos-d-ane.png";
 import a3 from "../assets/panneaux-de-danger/a3-panneau-de-danger-chaussee-retrecie.png";
+import a3a from "../assets/panneaux-de-danger/a3a-panneau-chaussee-retrecie-par-la-droite.png";
+import a3b from "../assets/panneaux-de-danger/a3b-panneau-chaussee-retrecie-par-la-gauche.png";
+import a4 from "../assets/panneaux-de-danger/a4-panneau-de-danger-chaussee-glissante.png";
+import a6 from "../assets/panneaux-de-danger/a6-panneau-de-danger-pont-mobile.png";
+import a7 from "../assets/panneaux-de-danger/a7-panneau-de-danger-passage-a-niveau-muni-de-barrieres.png";
+import a8 from "../assets/panneaux-de-danger/a8-panneau-de-danger-passage-a-niveau-sans-barriere.png";
+import a9 from "../assets/panneaux-de-danger/a9-panneau-traversee-de-voies-de-tramways.png";
+import a13a from "../assets/panneaux-de-danger/a13a-panneau-de-danger-enfants.png";
+import a13b from "../assets/panneaux-de-danger/a13b-panneau-de-danger-passage-pour-pietons.png";
+import a14 from "../assets/panneaux-de-danger/a14-panneau-de-danger-point-d-exclamation.png";
+import a15a1 from "../assets/panneaux-de-danger/a15a1-panneau-attention-passage-d-animaux-domestiques.png";
+import a15a2 from "../assets/panneaux-de-danger/a15a2-panneau-de-danger-passage-d-animaux-domestiques.png";
+import a15b from "../assets/panneaux-de-danger/a15b-panneau-de-danger-passage-d-animaux-sauvages.png";
+import a15c from "../assets/panneaux-de-danger/a15c-panneau-de-danger-attention-chevaux.png";
+import a16 from "../assets/panneaux-de-danger/a16-panneau-de-danger-descente-dangereuse.png";
+import a17 from "../assets/panneaux-de-danger/a17-panneau-de-danger-feux-tricolores.png";
+import a18 from "../assets/panneaux-de-danger/a18-panneau-de-danger-circulation-dans-les-2-sens.png";
+import a19 from "../assets/panneaux-de-danger/a19-panneau-risque-de-chute-de-pierres.png";
+import a20 from "../assets/panneaux-de-danger/a20-panneau-de-danger-debouche-sur-un-quai-ou-une-berge.png";
+import a21 from "../assets/panneaux-de-danger/a21-panneau-de-danger-debouche-cyclistes.png";
+import a23 from "../assets/panneaux-de-danger/a23-panneau-traversee-d-une-aire-de-danger-aerien.png";
+import a24 from "../assets/panneaux-de-danger/a24-panneau-de-danger-vent-lateral.png";
+import ab1 from "../assets/panneaux-de-danger/ab1-panneau-d-intersection-priorite-a-droite.png";
+import ab2 from "../assets/panneaux-de-danger/ab2-panneau-d-intersection-route-prioritaire.png";
+import ab25 from "../assets/panneaux-de-danger/ab25-panneau-carrefour-a-sens-giratoire.png";
+import ab3 from "../assets/panneaux-intersection/panneau-cedez-le-passage-a-l-intersection-ab3.png";
+import ab4 from "../assets/panneaux-intersection/panneau-stop-ab4.png";
+import ab6 from "../assets/panneaux-intersection/panneau-route-prioritaire-ab6.png";
+import ab7 from "../assets/panneaux-intersection/panneau-fin-de-route-prioritaire-ab7.png";
+import b0 from "../assets/panneaux-d-interdiction/panneau-circulation-interdite-b0.png";
 
 export interface RoadSign {
   code: string;
@@ -70,8 +100,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau A3a est un panneau de signalisation de danger utilisé pour avertir les conducteurs d'un rétrécissement de la chaussée affectant la voie par la droite. Il est généralement implanté en amont de zones de travaux, passages étroits, accotements effondrés ou obstacles permanents réduisant la largeur de circulation. De forme triangulaire avec un fond blanc et un liseré rouge, ce panneau comporte un pictogramme représentant un rétrécissement asymétrique.",
     type: "danger",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/3/32/France_road_sign_A3a.svg",
+    imageUrl: a3a,
   },
   {
     code: "A3b",
@@ -79,8 +108,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau A3b est un panneau de signalisation de danger destiné à avertir les conducteurs que la chaussée se rétrécit sur le côté gauche. Il est utilisé en amont de zones où un obstacle ou un aménagement réduit la largeur de voie à gauche, comme des travaux, un terre-plein central, ou une bordure irrégulière. De forme triangulaire, à fond blanc bordé de rouge, il comporte un pictogramme représentant une voie rétrécie sur le côté gauche uniquement.",
     type: "danger",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/e/e2/France_road_sign_A3b.svg",
+    imageUrl: a3b,
   },
   {
     code: "A4",
@@ -88,8 +116,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau A4 est un panneau de signalisation de danger utilisé pour alerter les usagers de la route qu'ils vont emprunter un tronçon de chaussée présentant un risque accru de perte d'adhérence. Ce panneau est généralement installé en amont de zones sensibles : virages, ponts, descentes, routes exposées au verglas, à la pluie, ou aux déversements de carburant. De forme triangulaire, avec un fond blanc bordé de rouge, il comporte un pictogramme représentant un véhicule en dérapage.",
     type: "danger",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/0/01/France_road_sign_A4.svg",
+    imageUrl: a4,
   },
   {
     code: "A6",
@@ -97,8 +124,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau A6 est un panneau de signalisation de danger utilisé pour avertir les conducteurs de la présence d'un pont mobile, c'est-à-dire un ouvrage d'art pouvant se lever ou s'ouvrir pour laisser passer des bateaux. Il est principalement implanté à l'approche de ponts basculants, tournants ou levants, situés au-dessus de canaux ou rivières navigables. De forme triangulaire avec un fond blanc bordé de rouge, ce panneau comporte un pictogramme représentant un pont ouvert avec un navire stylisé.",
     type: "danger",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/4/4a/France_road_sign_A6.svg",
+    imageUrl: a6,
   },
   {
     code: "A7",
@@ -106,8 +132,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau A7 est un panneau de signalisation de danger utilisé pour avertir les usagers de la présence d'un passage à niveau équipé de barrières ou de demi-barrières automatiques. Il est placé en amont d'un croisement entre une voie ferrée et la chaussée, afin de prévenir les risques de collision avec un train ou un tramway. De forme triangulaire avec un fond blanc bordé de rouge, ce panneau comporte un pictogramme représentant une barrière stylisée.",
     type: "danger",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/d/d2/France_road_sign_A7.svg",
+    imageUrl: a7,
   },
   {
     code: "A8",
@@ -115,8 +140,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau A8 est un panneau de signalisation de danger utilisé pour avertir les usagers de la route qu'ils vont croiser une voie ferrée non protégée par des barrières. Il est essentiel pour prévenir les risques de collision avec des trains sur les passages à niveau dépourvus de dispositifs de fermeture automatiques. De forme triangulaire avec un fond blanc et un liseré rouge, ce panneau affiche un pictogramme représentant une locomotive.",
     type: "danger",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/a/af/France_road_sign_A8.svg",
+    imageUrl: a8,
   },
   {
     code: "A9",
@@ -124,8 +148,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau A9 est un panneau de signalisation de danger utilisé pour avertir les conducteurs de la présence d'un croisement entre la chaussée et une ou plusieurs voies de tramway. Il est couramment implanté en zone urbaine, notamment aux intersections où la voie de tram croise la circulation automobile sans séparation physique évidente. De forme triangulaire avec un fond blanc et un bord rouge, ce panneau représente un pictogramme de tramway vu de face.",
     type: "danger",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/c/ca/France_road_sign_A9.svg",
+    imageUrl: a9,
   },
   {
     code: "A13a",
@@ -133,8 +156,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau A13a est un panneau de signalisation de danger destiné à alerter les conducteurs de la présence fréquente d'enfants sur ou aux abords de la chaussée. Il est généralement implanté à proximité des écoles, crèches, centres de loisirs, zones résidentielles ou passages piétons fréquentés par de jeunes usagers. De forme triangulaire avec un fond blanc bordé de rouge, ce panneau comporte un pictogramme représentant deux enfants courant, symbolisant un risque accru et la nécessité de réduire la vitesse.",
     type: "danger",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/1/14/France_road_sign_A13a.svg",
+    imageUrl: a13a,
   },
   {
     code: "A13b",
@@ -142,8 +164,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau A13b est un panneau de signalisation de danger utilisé pour avertir les conducteurs de la présence d'un passage piéton à proximité. Il est principalement implanté en amont des zones de traversée piétonne, que ce soit en agglomération, à proximité des écoles, des arrêts de transport en commun ou dans des zones très fréquentées par les piétons. De forme triangulaire avec un fond blanc bordé de rouge, le panneau comporte un pictogramme représentant un piéton traversant sur des bandes blanches.",
     type: "danger",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/7/71/France_road_sign_A13b.svg",
+    imageUrl: a13b,
   },
   {
     code: "A14",
@@ -151,8 +172,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau de danger A14, aussi appelé panneau point d'exclamation, est un panneau de signalisation utilisé pour avertir les conducteurs d'un risque non spécifié ou d'une situation dangereuse exceptionnelle. Indispensable pour la sécurité routière, il permet de signaler un danger temporaire ou particulier ne correspondant à aucun autre panneau. Souvent complété par un panonceau précisant la nature du danger (travaux, virages, rétrécissement de voie, etc.), le panneau A14 garantit une signalisation claire, visible et adaptée à toutes les configurations de route. De forme triangulaire avec un fond blanc bordé de rouge, il comporte un point d'exclamation noir au centre.",
     type: "danger",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/c/c1/France_road_sign_A14.svg",
+    imageUrl: a14,
   },
   {
     code: "A15a1",
@@ -160,8 +180,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau A15a1 est un panneau de signalisation de danger destiné à avertir les usagers de la route de la possible traversée d'animaux d'élevage ou de ferme. Il est fréquemment utilisé dans les zones rurales, agricoles, ou à proximité de fermes et pâturages où circulent vaches, moutons, chèvres ou autres animaux domestiques. De forme triangulaire, avec un fond blanc bordé de rouge, ce panneau comporte un pictogramme représentant une vache.",
     type: "danger",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/8/8d/France_road_sign_A15a1.svg",
+    imageUrl: a15a1,
   },
   {
     code: "A15a2",
@@ -169,8 +188,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau A15a2 est un panneau de signalisation de danger utilisé pour alerter les conducteurs de la présence potentielle d'animaux d'élevage traversant la chaussée. Ce panneau est principalement implanté dans les zones agricoles, les pâturages en bord de route, ou les itinéraires ruraux où des troupeaux peuvent se déplacer librement ou encadrés. De forme triangulaire à fond blanc bordé de rouge, le panneau comporte un pictogramme représentant un mouton.",
     type: "danger",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/7/72/France_road_sign_A15a2.svg",
+    imageUrl: a15a2,
   },
   {
     code: "A15b",
@@ -178,26 +196,23 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau A15b sécurise les zones à risque avec le panneau passage d'animaux sauvages. Ce signal de danger est indispensable pour alerter les usagers de la présence potentielle d'animaux sur la chaussée. L'installation de ce panneau permet de réduire les accidents et les collisions, souvent graves, en incitant les automobilistes à la prudence. De forme triangulaire, avec un fond blanc bordé de rouge, il affiche un pictogramme représentant un cerf bondissant. Ce panneau incite les conducteurs à la vigilance accrue, notamment la nuit ou à l'aube.",
     type: "danger",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/2/29/France_road_sign_A15b.svg",
+    imageUrl: a15b,
   },
   {
     code: "A15c",
-    name: "Attention chevaux",
+    name: "Attention cavaliers ou chevaux",
     description:
       "Le panneau A15c est un panneau de signalisation de danger utilisé pour avertir les conducteurs de la possible présence de cavaliers ou de chevaux sur ou à proximité de la chaussée. Il est couramment installé à proximité de centres équestres, chemins de randonnée, zones rurales ou boisées où la circulation équestre est fréquente. De forme triangulaire avec un fond blanc et un bord rouge, ce panneau comporte un pictogramme représentant un cheval monté par un cavalier.",
     type: "danger",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/f/fc/France_road_sign_A15c.svg",
+    imageUrl: a15c,
   },
   {
     code: "A16",
     name: "Descente dangereuse",
     description:
-      "Le panneau A16 est un panneau de signalisation de danger utilisé pour avertir les conducteurs de l'approche d'une pente prononcée présentant un risque accru, notamment en cas de pluie, de neige ou de freinage prolongé. Ce modèle est personnalisable, permettant d'indiquer le pourcentage exact de la pente (ex. : 10 %, 12 %, 14 %) en fonction de la configuration de la voie. De forme triangulaire, avec un fond blanc et un liseré rouge, ce panneau comporte un pictogramme représentant un véhicule descendant une pente raide.",
+      "Le panneau A16 est un panneau de signalisation de danger utilisé pour avertir les conducteurs de l'approche d'une pente prononcée présentant un risque accru, notamment en cas de pluie, de neige ou de freinage prolongé. Ce modèle permet d'indiquer le pourcentage exact de la pente (ex. : 10 %, 12 %, 14 %) en fonction de la configuration de la voie. De forme triangulaire, avec un fond blanc et un liseré rouge, ce panneau comporte un pictogramme représentant un véhicule descendant une pente raide.",
     type: "danger",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/5/5c/France_road_sign_A16.svg",
+    imageUrl: a16,
   },
   {
     code: "A17",
@@ -205,8 +220,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau A17 est un panneau de signalisation de danger utilisé pour avertir les conducteurs de l'approche d'une intersection régulée par des feux de circulation. Il est principalement implanté lorsque les feux ne sont pas immédiatement visibles ou dans des zones où leur présence est inhabituelle (virages, descentes, routes rurales, etc.). De forme triangulaire, avec un fond blanc et un bord rouge, ce panneau comporte un pictogramme représentant les trois couleurs d'un feu de signalisation vertical.",
     type: "danger",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/2/27/France_road_sign_A17.svg",
+    imageUrl: a17,
   },
   {
     code: "A18",
@@ -214,8 +228,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau A18 est un panneau de signalisation de danger utilisé pour avertir les conducteurs qu'ils vont quitter une route à sens unique pour emprunter une voie à double sens. Ce panneau est essentiel pour prévenir les risques de collision frontale, en particulier après une section à circulation unidirectionnelle. De forme triangulaire avec un fond blanc bordé de rouge, il présente deux flèches noires opposées verticalement, l'une vers le haut et l'autre vers le bas.",
     type: "danger",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/2/2d/France_road_sign_A18.svg",
+    imageUrl: a18,
   },
   {
     code: "A19",
@@ -223,8 +236,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau A19 est un panneau de signalisation de danger utilisé pour prévenir les conducteurs d'un risque de chutes de pierres ou d'éboulements rocheux sur la chaussée. Il est couramment implanté sur les routes de montagne, en zones escarpées ou à proximité de falaises sujettes aux instabilités naturelles. De forme triangulaire, à fond blanc et bord rouge, ce panneau comporte un pictogramme représentant des pierres tombant d'une paroi rocheuse.",
     type: "danger",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/d/d5/France_road_sign_A19.svg",
+    imageUrl: a19,
   },
   {
     code: "A20",
@@ -232,8 +244,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau A20 est un panneau de signalisation de danger utilisé pour avertir les conducteurs qu'ils approchent d'un quai, d'un port, d'un canal ou d'une berge sans barrière de protection. Il est principalement implanté en bordure de zones portuaires, fluviales ou côtières, où la chaussée mène directement à un plan d'eau. De forme triangulaire avec un fond blanc bordé de rouge, le panneau comporte un pictogramme représentant un véhicule tombant dans l'eau.",
     type: "danger",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/e/e9/France_road_sign_A20.svg",
+    imageUrl: a20,
   },
   {
     code: "A21",
@@ -241,8 +252,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau A21 est un panneau de signalisation de danger utilisé pour avertir les conducteurs de la possible arrivée soudaine de cyclistes sur la chaussée. Il est généralement implanté à l'endroit où une piste cyclable ou un chemin réservé débouche sur une voie partagée avec les véhicules motorisés. De forme triangulaire, à fond blanc bordé de rouge, ce panneau comporte un pictogramme représentant un cycliste. Il signale un danger potentiel et invite les automobilistes à redoubler de vigilance.",
     type: "danger",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/b/bf/France_road_sign_A21.svg",
+    imageUrl: a21,
   },
   {
     code: "A23",
@@ -250,8 +260,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau A23 est un panneau de signalisation de danger utilisé pour avertir les conducteurs qu'ils traversent une zone où des aéronefs peuvent évoluer à très basse altitude. Il est généralement implanté à proximité des pistes d'atterrissage ou de décollage d'aéroclubs, d'aérodromes, d'héliports ou de bases militaires. De forme triangulaire avec un fond blanc bordé de rouge, ce panneau comporte un pictogramme représentant un avion stylisé.",
     type: "danger",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/2/2a/France_road_sign_A23.svg",
+    imageUrl: a23,
   },
   {
     code: "A24",
@@ -259,8 +268,31 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau A24 est un panneau de signalisation de danger qui avertit les conducteurs d'un risque de vents latéraux violents sur une portion de route. Ce panneau est particulièrement utile dans les zones exposées comme les ponts, viaducs, routes de montagne ou plaine ouverte. De forme triangulaire avec un fond blanc bordé de rouge, il comporte le pictogramme d'un manche à air incliné, symbole universel du vent.",
     type: "danger",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/5/55/France_road_sign_A24.svg",
+    imageUrl: a24,
+  },
+  {
+    code: "AB1",
+    name: "Intersection avec priorité à droite",
+    description:
+      "Le panneau AB1, également appelé panneau “priorité à droite”, est un panneau de signalisation de danger utilisé pour avertir les conducteurs qu’ils vont aborder une intersection où la règle de la priorité à droite s’applique. Ce panneau est indispensable sur les routes où la priorité n’est pas régie par un marquage ou une autre signalisation explicite. De forme triangulaire avec un fond blanc bordé de rouge, il comporte un symbole en forme de croix noire représentant une intersection classique. Il incite les conducteurs à ralentir et à être attentifs aux véhicules arrivant de la droite.",
+    type: "danger",
+    imageUrl: ab1,
+  },
+  {
+    code: "AB2",
+    name: "Route prioritaire",
+    description:
+      "Le panneau AB2, également appelé panneau “Route prioritaire”, est un panneau de signalisation de prescription utilisé pour indiquer que la route sur laquelle circule le conducteur bénéficie de la priorité à toutes les intersections à venir, jusqu’à ce qu’un panneau de fin de priorité (AB6) le contredise. De forme carrée, avec un fond blanc et un filet noir, il comporte un symbole losange jaune bordé de blanc. Ce panneau est installé sur les routes principales ou départementales, en particulier lorsqu’elles croisent des voies secondaires ou en sortie d’agglomération.",
+    type: "danger",
+    imageUrl: ab2,
+  },
+  {
+    code: "AB25",
+    name: "Carrefour à sens giratoire",
+    description:
+      "Le panneau AB25, également appelé panneau “Carrefour à sens giratoire”, est un panneau de signalisation de prescription qui indique l’obligation pour les conducteurs d’emprunter le rond-point dans le sens inverse des aiguilles d’une montre, tout en cédant le passage aux véhicules déjà engagés. Ce panneau s’applique aux carrefours aménagés en giratoire avec une priorité circulaire. De forme triangulaire à fond blanc et liseré rouge avec trois flèches blanches disposées en cercle, il impose la circulation giratoire. Il est toujours utilisé en complément du panneau AB3 “Cédez le passage”, positionné juste avant l’entrée du rond-point.",
+    type: "danger",
+    imageUrl: ab25,
   },
 
   // ===== INTERSECTION ET PRIORITÉ (Type AB) =====
@@ -270,8 +302,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau AB1, également appelé panneau « priorité à droite », est un panneau de signalisation de danger utilisé pour avertir les conducteurs qu'ils vont aborder une intersection où la règle de la priorité à droite s'applique. Ce panneau est indispensable sur les routes où la priorité n'est pas régie par un marquage ou une autre signalisation explicite. De forme triangulaire avec un fond blanc bordé de rouge, il comporte un symbole en forme de croix noire représentant une intersection classique.",
     type: "intersection",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/4/47/France_road_sign_AB1.svg",
+    imageUrl: ab1,
   },
   {
     code: "AB2",
@@ -279,8 +310,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau AB2, également appelé panneau « Route prioritaire », est un panneau de signalisation de prescription utilisé pour indiquer que la route sur laquelle circule le conducteur bénéficie de la priorité à toutes les intersections à venir, jusqu'à ce qu'un panneau de fin de priorité (AB6) le contredise. De forme carrée, avec un fond blanc et un filet noir, il comporte un symbole losange jaune bordé de blanc.",
     type: "intersection",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/1/15/France_road_sign_AB2.svg",
+    imageUrl: ab2,
   },
   {
     code: "AB3",
@@ -288,8 +318,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau AB3, également appelé panneau « Cédez le passage », est un panneau de signalisation de prescription qui impose aux conducteurs de céder la priorité aux véhicules circulant sur la route qu'ils vont croiser ou rejoindre. Il est installé en amont des intersections où la règle de priorité doit être formellement indiquée, en l'absence de feux tricolores ou de signalisation automatique.",
     type: "intersection",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/2/24/France_road_sign_AB3a.svg",
+    imageUrl: ab3,
   },
   {
     code: "AB4",
@@ -297,26 +326,23 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau AB4, plus connu sous le nom de panneau Stop, est un panneau de signalisation réglementaire imposant aux conducteurs de marquer un arrêt absolu à l'intersection où il est implanté. Il est obligatoire à toutes les intersections présentant un danger ou un manque de visibilité, que ce soit en zone urbaine, rurale ou sur le réseau secondaire.",
     type: "intersection",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/5/59/France_road_sign_AB4.svg",
+    imageUrl: ab4,
   },
   {
     code: "AB6",
-    name: "Fin de route à caractère prioritaire",
+    name: "Route à caractère prioritaire",
     description:
-      "Le panneau AB6 indique la fin du caractère prioritaire de la route, symbolisé par un losange jaune et blanc barré. Panneau de police de type AB.",
+      "Le panneau AB6 indique une route à caractère prioritaire, symbolisé par un losange jaune et blanc. Panneau de police de type AB.",
     type: "intersection",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/e/e4/France_road_sign_AB6.svg",
+    imageUrl: ab6,
   },
   {
     code: "AB7",
-    name: "Route à caractère prioritaire",
+    name: "Fin de route à caractère prioritaire",
     description:
-      "Le panneau AB7 indique une route à caractère prioritaire, symbolisé par un losange jaune et blanc. Panneau de police de type AB.",
+      "Le panneau AB7 indique la fin du caractère prioritaire de la route, symbolisé par un losange jaune et blanc barré. Panneau de police de type AB.",
     type: "intersection",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/1/15/France_road_sign_AB2.svg",
+    imageUrl: ab7,
   },
   {
     code: "AB25",
@@ -324,8 +350,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau AB25, également appelé panneau « Carrefour à sens giratoire », est un panneau de signalisation de prescription qui indique l'obligation pour les conducteurs d'emprunter le rond-point dans le sens inverse des aiguilles d'une montre, tout en cédant le passage aux véhicules déjà engagés. Ce panneau s'applique aux carrefours aménagés en giratoire avec une priorité circulaire. De forme triangulaire à fond blanc et liseré rouge avec trois flèches disposées en cercle.",
     type: "intersection",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/d/d0/France_road_sign_AB25.svg",
+    imageUrl: ab25,
   },
 
   // ===== INTERDICTION (Type B) =====
@@ -335,8 +360,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau B0, également appelé panneau « Circulation interdite », est un panneau de signalisation réglementaire indiquant une interdiction générale de circuler pour tous les véhicules. Il est principalement installé à l'entrée de zones protégées, voies privées, chantiers, ou routes temporairement fermées à la circulation.",
     type: "interdiction",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/9/9a/France_road_sign_B0.svg",
+    imageUrl: b0,
   },
   {
     code: "B1",

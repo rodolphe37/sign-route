@@ -10,7 +10,8 @@ export const signTypes: SignType[] = [
   {
     id: "interdiction",
     name: "Interdiction et fin d'interdiction",
-    description: "Panneaux indiquant une interdiction ou la fin d'une interdiction",
+    description:
+      "Panneaux indiquant une interdiction ou la fin d'une interdiction",
     color: "bg-red-500",
     icon: "🚫",
   },
@@ -33,7 +34,7 @@ export const signTypes: SignType[] = [
     name: "Intersection et priorité",
     description: "Panneaux relatifs aux intersections et règles de priorité",
     color: "bg-amber-500",
-    icon: "⚠️",
+    icon: "❌",
   },
   {
     id: "danger",
