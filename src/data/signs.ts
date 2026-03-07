@@ -1,5 +1,9 @@
-import a1a from "../assets/panneaux-de-danger/panneau-de-danger-virage-a-droite-a1a.png";
-import a1b from "../assets/panneaux-de-danger/panneau-de-danger-virage-a-gauche-a1b.png";
+import a1a from "../assets/panneaux-de-danger/a1a-panneau-de-danger-virage-a-droite.png";
+import a1b from "../assets/panneaux-de-danger/a1b-panneau-de-danger-virage-a-gauche.png";
+import a1c from "../assets/panneaux-de-danger/a1c-panneau-succession-de-virages-dont-le-1er-est-a-droite.png";
+import a2a from "../assets/panneaux-de-danger/a2a-panneau-de-danger-dos-d-ane.png";
+import a2b from "../assets/panneaux-de-danger/a2b-panneau-de-danger-ralentisseur-dos-d-ane.png";
+import a3 from "../assets/panneaux-de-danger/a3-panneau-de-danger-chaussee-retrecie.png";
 
 export interface RoadSign {
   code: string;
@@ -34,8 +38,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau A1c est un panneau de signalisation de danger utilisé pour avertir les usagers de la présence de plusieurs virages consécutifs, le premier étant orienté vers la droite. Il est couramment installé sur les routes sinueuses, en montagne, ou dans les zones boisées où la visibilité est réduite. De forme triangulaire, avec un fond blanc et un liseré rouge, ce panneau comporte un pictogramme représentant une double courbe débutant par la droite. Il alerte les conducteurs afin qu'ils ralentissent et adaptent leur trajectoire.",
     type: "danger",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/b/b3/France_road_sign_A1c.svg",
+    imageUrl: a1c,
   },
   {
     code: "A2a",
@@ -43,8 +46,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau A2a est un panneau de signalisation de danger utilisé pour avertir les conducteurs de la présence d'un dos d'âne naturel ou d'un ressaut sur la chaussée. Ce type de relief, non aménagé artificiellement comme un ralentisseur, peut causer des désagréments ou des pertes de contrôle si la vitesse n'est pas adaptée. De forme triangulaire, avec un fond blanc et un liseré rouge, le panneau représente une bosse arrondie en noir, facilement identifiable par les conducteurs.",
     type: "danger",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/2/24/France_road_sign_A2a.svg",
+    imageUrl: a2a,
   },
   {
     code: "A2b",
@@ -52,8 +54,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau dos d'âne A2b, également appelé panneau ralentisseur, est un panneau de signalisation de danger essentiel pour avertir les conducteurs de la présence d'un dos d'âne ou coussin sur la chaussée. Ce signal joue un rôle crucial pour la sécurité routière : il incite les automobilistes à réduire leur vitesse afin de protéger les zones sensibles comme les écoles, les traversées piétonnes ou les quartiers résidentiels. De forme triangulaire avec un fond blanc et un liseré rouge, le panneau A2b assure une signalisation claire et visible.",
     type: "danger",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/d/d9/France_road_sign_A2b.svg",
+    imageUrl: a2b,
   },
   {
     code: "A3",
@@ -61,8 +62,7 @@ export const roadSigns: RoadSign[] = [
     description:
       "Le panneau A3 est un panneau de signalisation de danger utilisé pour prévenir les usagers d'un rétrécissement de la voie de circulation sur les deux côtés. Il est généralement implanté avant une section de route plus étroite, causée par des aménagements, des déformations, des travaux ou des contraintes géographiques. De forme triangulaire avec un fond blanc bordé de rouge, ce panneau comporte un pictogramme représentant deux lignes convergentes vers le bas, signalant la réduction de largeur de la chaussée.",
     type: "danger",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/3/3d/France_road_sign_A3.svg",
+    imageUrl: a3,
   },
   {
     code: "A3a",

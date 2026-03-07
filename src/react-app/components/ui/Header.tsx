@@ -9,6 +9,7 @@ function Header() {
 
   const links = [
     { name: "Accueil", path: "/" },
+    { name: "Théorie", path: "/theorie" },
     { name: "Catégories", path: "/categories" },
     { name: "À propos", path: "/about" },
   ];

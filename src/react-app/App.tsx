@@ -3,6 +3,7 @@ import CategoryPage from "@/react-app/pages/CategoryPage";
 import Categories from "@/react-app/pages/Categories";
 import LandingPage from "./pages/LandingPage";
 import About from "./pages/About";
+import SignsTheory from "./components/SignsTheory";
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/categories" element={<Categories />} />
+        <Route path="/theorie" element={<SignsTheory />} />
         <Route path="/category/:categoryId" element={<CategoryPage />} />
         <Route path="/about" element={<About />} />
       </Routes>
